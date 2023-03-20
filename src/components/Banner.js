@@ -5,7 +5,7 @@ function Banner() {
         <section className='section sectionBanner'>
             <div className="banner-inicio">
                 <picture>
-	                <img src="./images/banner2.png"alt="banner"/>
+	                <img src="./images/bannerNegro.png"alt="banner"/>
                 </picture>
             </div>
         </section>

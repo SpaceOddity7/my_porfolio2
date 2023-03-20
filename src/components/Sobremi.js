@@ -4,7 +4,6 @@ function Aboutme() {
     return(
         <section className="section sectionAboutMe">
             <div className="container">
-                <h1 className="titulo_principal">PORFOLIO</h1>
                 <div className="textoimagen">
                     <div className="textoprinp">
                     <h3>SOBRE MI</h3>

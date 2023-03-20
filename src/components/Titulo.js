@@ -4,7 +4,7 @@ function Titulo() {
 return(
     <section>
     <div className="proyectos">
-    <h2>PROYECTOS</h2>
+    <h1>PROYECTOS</h1>
     </div>
     </section>
 )
