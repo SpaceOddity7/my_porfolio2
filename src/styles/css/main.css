@@ -309,10 +309,13 @@ section .textoimagen .img_sobremi img {
 
 .card {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   margin-top: 5%;
   margin-bottom: 7%;
+
 }
 
 .card img {
@@ -325,6 +328,7 @@ section .textoimagen .img_sobremi img {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  margin:20px;
   margin-inline-start: 1%;
   box-shadow: 0 8px 32px 0 rgba(8, 7, 8, 0.37);
 }
@@ -411,6 +415,16 @@ button:hover {
   color:#fff
 }
 
+footer .logoLinkedin{
+
+  color: #fff;
+  font-size: 2rem;
+  margin-right: 3,5rem;
+  width: 1.5rem; 
+  height: 1.5rem;
+  padding: 0.5rem;
+  margin-bottom: 2%;
+}
 
 
 
