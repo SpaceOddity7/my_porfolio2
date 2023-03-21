@@ -6,8 +6,8 @@ function Aboutme() {
             <div className="container">
                 <div className="textoimagen">
                     <div className="textoprinp">
-                    <h3>SOBRE MI</h3>
-                        <p> Destinada a reinventarme y descubir mi pasión por la programación. Este camino me permite dar lo mejor de mí sin ponerme limites. Siempre dispuesta a seguir ampliando conocimientos.</p><p>Destined to reinvent myself and discover my passion for programming. This path allows me to give the best of me without limiting myself. Always ready to continue to expand my knowledge</p>
+                    <h1>SOBRE MI</h1>
+                    <p>¡Hola! Soy Silvia, he trabajado en la industria de los medios impresos durante gran parte de mi carrera, donde he desarrollado habilidades en edición y producción de contenidos. Ahora estoy haciendo un bootcamp de desarrollo fullstack, donde he adquirido conocimientos en diferentes lenguajes de programación, frameworks, bases de datos y metodologías ágiles. Estoy emocionada por esta nueva etapa en mi carrera y espero combinar mis habilidades y experiencia para crear soluciones digitales efectivas y atractivas.</p>
                     </div>
                     <div className="img_sobremi">
                         <img src='./images/yobn.jpeg' alt='Imagen-Silvia'></img>

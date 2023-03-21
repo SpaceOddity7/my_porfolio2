@@ -14,7 +14,7 @@ const ContactForm = () => {
 
     return (
         <div className="formulario">
-            <h2>CONTACTO</h2>
+            <h1>CONTACTO</h1>
     <form onSubmit={handleSubmit}>
         <label>
         Name:

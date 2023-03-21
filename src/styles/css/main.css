@@ -7,7 +7,6 @@
 *:after {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -25,7 +24,7 @@ body {
 body h1,body h2, body h3, body h4, body h5, body h6 {
   font-family: "Prata", serif;
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 40px;
   margin: 0 auto;
   margin-bottom: 35px;
   text-align: center;
@@ -124,7 +123,7 @@ header .container .navbar .menu {
   header .container .navbar .menu {
     display: none;
     position: absolute;
-    background-color: #976E76;
+    background-color: #060606;
     color:white;
     right: 0;
     left: 0;
@@ -154,6 +153,11 @@ header .container .navbar .hamburger {
     display: block;
   }
 }
+
+.sectionBanner picture img {
+  width: 100%;
+}
+
 section h2 {
   text-align: center;
   font-family: "Prata", serif;
@@ -228,11 +232,8 @@ section .textoimagen .img_sobremi img {
 }
 @media screen and (max-width: 768px) {
   section .textoimagen .img_sobremi img {
-    width: 100%;
+    width: 90%;
   }
-}
-.sectionBanner picture img {
-  width: 100%;
 }
 
 .sectionServices .container {
@@ -245,7 +246,7 @@ section .textoimagen .img_sobremi img {
 }
 .sectionServices .container .sliderServices {
   width: 80%;
-  margin: 0 auto;
+  margin: 0;
 }
 .sectionServices .container .sliderServices .itemSlider {
   display: flex !important;
@@ -306,7 +307,9 @@ section .textoimagen .img_sobremi img {
     font-size: 10px;
   }
 }
-
+.proyectos{
+  margin:5%;
+}
 .card {
   display: flex;
   flex-wrap: wrap;
@@ -316,6 +319,12 @@ section .textoimagen .img_sobremi img {
   margin-top: 5%;
   margin-bottom: 7%;
 
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    margin-left: 2%;
+  }
 }
 
 .card img {
@@ -365,7 +374,12 @@ form {
   backdrop-filter: blur(10px);
   background: linear-gradient(to right,black,gray);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
 
+@media screen and (max-width: 767px) {
+  form {
+    width:80%;
+  }
 }
 
 label {
@@ -409,6 +423,7 @@ button:hover {
   color:linear-gradient(black,gray);
   background: white;
 }
+
 .footer {
   background:linear-gradient(black,gray);
   font-size: 14px;
